@@ -24,12 +24,12 @@
                     <li><a href="basket.php">Basket</a></li>
 
                     <?php 
-						if(isset($_SESSION['u_id'])){?>
-								<li><a href="logout.php">Logout </a></li>
-							<?php }else{ ?>
-								<li><a href="login.php">Login </a></li>
-								<li><a href="register.php">Register </a></li>
-					<?php } ?>
+			if(isset($_SESSION['u_id'])){?>
+				<li><a href="logout.php">Logout </a></li>
+			<?php }else{ ?>
+				<li><a href="login.php">Login </a></li>
+				<li><a href="register.php">Register </a></li>
+		     <?php } ?>
                 </ul>
             </div>
         </div>
